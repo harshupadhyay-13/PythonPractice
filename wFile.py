@@ -1,0 +1,8 @@
+f = open('TextFile.txt', 'w')
+f.write('File Name TextFile.txt\n')
+f.write("First line\n more lines .\n")
+f.close()
+g = open('TextFile.txt', 'r+')
+x = g.read()
+print (x)
+f.close()
